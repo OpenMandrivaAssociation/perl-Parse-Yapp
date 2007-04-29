@@ -1,6 +1,6 @@
 %define module	Parse-Yapp
 %define version	1.05
-%define release	%mkrel 7
+%define release	%mkrel 8
 
 Summary:	Fully reentrant perl OO LALR(1) parser creator
 Name:		perl-%{module}
