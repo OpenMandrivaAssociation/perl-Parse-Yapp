@@ -1,14 +1,14 @@
-%define modname	Parse-Yapp
-%define modver	1.05
+%define modname Parse-Yapp
+%define modver 1.21
 
 Summary:	Fully reentrant perl OO LALR(1) parser creator
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	16
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%modname/
-Source0:	%{modname}-%{modver}.tar.bz2
+Source0:	http://search.cpan.org/CPAN/authors/id/W/WB/WBRASWELL/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 
